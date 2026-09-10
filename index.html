@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self'; base-uri 'none'; form-action https://*.lemonsqueezy.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#284fc6">
+  <title>Godot Sandbox Plus — Ship faster scripts. Keep control.</title>
+  <meta name="description" content="AOT performance, script obfuscation, and restricted modding for Godot. Godot Sandbox Plus includes an engine module for studio console builds.">
+  <meta property="og:title" content="Godot Sandbox Plus">
+  <meta property="og:description" content="Faster scripts. Protected code. Mods with boundaries. Built for Godot.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plus.libriscv.no/">
+  <link rel="canonical" href="https://plus.libriscv.no/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="Godot Sandbox Plus home">
+      <svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><path d="M20 2 37 11v18L20 38 3 29V11Z" fill="#284fc6"/><path d="m3 11 17 9 17-9M20 20v18" fill="none" stroke="white" stroke-width="2"/><path d="M20 7v10m-5-5h10" stroke="white" stroke-width="2"/></svg>
+      <span>Godot Sandbox <b>Plus</b></span>
+    </a>
+    <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#language">SafeGDScript</a><a href="#modding">Modding</a><a href="#pricing">Pricing</a><a class="nav-demo" href="/demo/">Live demo</a><a class="nav-docs" href="https://libriscv.no/docs/host_langs/godot_integration/godot_intro/sandbox">Documentation <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="product-label"><span class="status-dot"></span> The commercial toolkit for studios using Godot engine</p>
+        <h1 id="hero-title">More power.<br>Same sandbox.</h1>
+        <p class="hero-description">Give your game faster scripts, protect the code behind it, and let your players build safely.</p>
+        <div class="actions"><a class="button primary" href="#pricing">Explore Sandbox Plus</a><a class="text-link" href="/demo/">Try it in your browser <span aria-hidden="true">→</span></a></div>
+        <p class="hero-note">Built for Godot. Compiled locally. Performant.</p>
+      </div>
+      <div class="build-visual" role="img" aria-label="Game scripts are compiled into native machine code and run inside a sandbox boundary. Target desktop, mobile, web, and consoles through the studio module.">
+        <div class="visual-top"><span>Inside your next build</span><span class="visual-plus">+</span></div>
+        <div class="script-strip"><span class="file-icon">{ }</span><span>Game scripts<small>Your logic. Your machine.</small></span><span class="file-extension">.sgd</span></div>
+        <div class="bake-path"><span></span><p>Pre-bake at export</p><span></span></div>
+        <svg class="sandbox-graphic" viewBox="0 0 460 270" aria-hidden="true">
+          <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b9caef" stroke-width=".6"/></pattern></defs>
+          <path d="m230 30 190 97-190 110L40 127Z" fill="url(#grid)"/>
+          <path d="m230 53 130 67v78l-130 69-130-69v-78Z" fill="#e4ecff" stroke="#6e90db" stroke-width="1.5"/>
+          <path d="m100 120 130 69 130-69M230 189v78" fill="none" stroke="#6e90db" stroke-width="1.5"/>
+          <path d="m230 17 130 68-130 69-130-69Z" fill="#f7faff" fill-opacity=".8" stroke="#6e90db" stroke-width="1.5" stroke-dasharray="5 5"/>
+          <path d="M100 85v35m260-35v35M230 154v35" stroke="#6e90db" stroke-width="1.5" stroke-dasharray="5 5"/>
+          <path d="m230 81 65 34v44l-65 34-65-34v-44Z" fill="#284fc6"/>
+          <path d="m165 115 65 34 65-34M230 149v44" fill="none" stroke="#92b2ff" stroke-width="1.5"/>
+          <path d="m217 108-15 8 15 8m26-16 15 8-15 8m-9-19-8 22" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M317 186h52" stroke="#284fc6"/><circle cx="317" cy="186" r="3" fill="#284fc6"/>
+          <text x="374" y="182" fill="#284fc6" font-size="10" font-family="sans-serif">Sandbox</text><text x="374" y="196" fill="#284fc6" font-size="10" font-family="sans-serif">boundary</text>
+        </svg>
+        <div class="visual-caption"><span class="status-dot"></span> Native code. Controlled access.</div>
+        <div class="target-strip"><span>Desktop</span><span>Mobile</span><span>Web</span><span>Studio module*</span></div>
+      </div>
+    </section>
+    <div class="platform-band"><div class="wrap"><p>Build for your target.</p><ul aria-label="Platforms"><li>Windows</li><li>macOS</li><li>Linux</li><li>Android</li><li>iOS</li><li>Web</li><li>Consoles through the studio module*</li></ul></div></div>
+    <section class="features wrap section-space" id="features" aria-labelledby="features-title">
+      <div class="section-heading"><h2 id="features-title">The freedom to build.<br>The control to ship.</h2><p>Keep your Godot workflow. Add the performance and protection befitting a commercial release.</p></div>
+      <div class="feature-grid">
+        <article><div class="feature-symbol" aria-hidden="true">↯</div><h3>Compile ahead-of-time.</h3><p>Compile scripts into native code at export time. Get better performance without JIT warm-up, including on platforms where JIT isn't available.</p><p>JIT available for dynamically loaded scripts. For exported scripts, use native AOT for 2-100x performance.</p><span class="feature-foot">Performance depends on workload and engine calls.</span></article>
+        <article><div class="feature-symbol" aria-hidden="true">{·}</div><h3>Ship the game.<br>Keep the source.</h3><p>Compile supported game scripts into stripped machine code and obfuscate their implementation. Make your game's logic harder to inspect and copy.</p><p>Your project stays on your machine always.</p><span class="feature-foot">Code protection raises the cost of reverse engineering.</span></article>
+        <article><div class="feature-symbol" aria-hidden="true">⊞</div><h3>Make room for mods.</h3><p>Support real, player-written gameplay logic inside an isolated runtime. Set memory and execution limits, and choose what a mod can reach.</p><p>Traits-based modding APIs are easy to use and encourage modders.</p><a class="inline-link" href="#modding">Explore the boundaries <span aria-hidden="true">↓</span></a></article>
+      </div>
+    </section>
+    <section class="language-section section-space" id="language" aria-labelledby="language-title"><div class="wrap">
+      <p class="section-kicker">The SafeGDScript language</p>
+      <div class="section-heading"><h2 id="language-title">Familiar syntax.<br>More ways to express it.</h2><p>SafeGDScript extends GDScript with reusable behavior and more expressive types. A few small examples show what that looks like in your scripts.</p></div>
+      <div class="language-examples">
+        <article class="language-example" aria-labelledby="traits-title">
+          <div class="language-copy"><span class="example-number" aria-hidden="true">01</span><div><h3 id="traits-title">Traits</h3><p>Share state and behavior across scripts. Declare a trait, then bring its members into your script with 'uses Trait'.</p></div></div>
+          <pre tabindex="0" role="region" aria-label="Traits code example"><code class="language-safegdscript">uses Damageable
+
+trait Damageable:
+    var health: int = 100
+
+    func take_damage(amount: int) -&gt; void:
+        health -= amount</code></pre>
+        </article>
+        <article class="language-example" aria-labelledby="nullable-types-title">
+          <div class="language-copy"><span class="example-number" aria-hidden="true">02</span><div><h3 id="nullable-types-title">Nullable types</h3><p>Use T? for a value that can be null. A null check narrows the type so you can safely work with the value that remains.</p></div></div>
+          <pre tabindex="0" role="region" aria-label="Nullable types code example"><code class="language-safegdscript">func bonus_points(bonus: int?) -&gt; int:
+    if bonus == null:
+        return 0
+    return bonus + 10</code></pre>
+        </article>
+        <article class="language-example" aria-labelledby="structs-title">
+          <div class="language-copy"><span class="example-number" aria-hidden="true">03</span><div><h3 id="structs-title">Structs</h3><p>Group related variables of different types together under a single name. Construct a value directly and access its fields by name.</p></div></div>
+          <pre tabindex="0" role="region" aria-label="Structs code example"><code class="language-safegdscript">struct Item:
+    var name: String
+    var value: int
+
+func starting_item() -&gt; Item:
+    var item := Item(&quot;Potion&quot;, 25)
+    item.value += 5
+    return item</code></pre>
+        </article>
+        <article class="language-example" aria-labelledby="compact-if-var-title">
+          <div class="language-copy"><span class="example-number" aria-hidden="true">04</span><div><h3 id="compact-if-var-title">Compact if var</h3><p>Bind a non-null value and use it inside the branch in one step. It's only a null check. 0, false, and empty strings still pass.</p></div></div>
+          <pre tabindex="0" role="region" aria-label="Compact if var code example"><code class="language-safegdscript">func score_label(score: int?) -&gt; String:
+    if var points := score:
+        return str(points) + &quot; points&quot;
+    return &quot;No score yet&quot;</code></pre>
+        </article>
+        <article class="language-example" aria-labelledby="union-types-title">
+          <div class="language-copy"><span class="example-number" aria-hidden="true">05</span><div><h3 id="union-types-title">Union types</h3><p>Accept a specific set of types with |. Test with is to narrow the value and handle each case with the right operations.</p></div></div>
+          <pre tabindex="0" role="region" aria-label="Union types code example"><code class="language-safegdscript">func item_label(item: int | String) -&gt; String:
+    if item is int:
+        return &quot;Item #&quot; + str(item)
+    return item + &quot; (named)&quot;</code></pre>
+        </article>
+      </div>
+    </div></section>
+    <section class="modding-section" id="modding" aria-labelledby="modding-title"><div class="wrap modding-layout">
+      <div class="modding-copy"><p class="section-kicker">Modding, built to be shipped</p><h2 id="modding-title">Open up your game.<br>Keep the boundaries.</h2><p>New mechanics, custom worlds, entire game modes. Give your community a real scripting surface without giving their scripts unrestricted access to a player’s machine.</p><p>Godot Sandbox brings an isolated runtime and explicit permissions together in a Godot addon.</p><a class="button light" href="/demo/">Try the live demo <span aria-hidden="true">→</span></a></div>
+      <div class="permissions-panel"><div class="panel-heading"><span>Restriction mode</span><span class="pill">Zero outside access</span></div><div class="mod-source"><span aria-hidden="true">{ }</span> community_mod.sgd</div><div class="permission-row"><span>Host filesystem</span><b>Blocked</b></div><div class="permission-row"><span>Network access</span><b>Blocked</b></div><div class="permission-row"><span>Operating system</span><b>Blocked</b></div><div class="permission-row"><span>Game objects &amp; APIs</span><b>Explicitly allowed only</b></div><p class="panel-note">You expose the game API. The sandbox enforces the boundary. Keep restrictions enabled for untrusted mods.</p></div>
+    </div></section>
+    <section class="console-section wrap section-space" aria-labelledby="console-title"><div class="console-symbol" aria-hidden="true"><svg viewBox="0 0 160 120"><path d="M42 30h76c15 0 30 48 25 61-5 15-20 11-37-8H54c-17 19-32 23-37 8-5-13 10-61 25-61Z" fill="none" stroke="currentColor" stroke-width="4"/><path d="M45 45v29M31 59h29" stroke="currentColor" stroke-width="4"/><circle cx="113" cy="49" r="5" fill="currentColor"/><circle cx="127" cy="63" r="5" fill="currentColor"/><path d="M70 59h20" stroke="currentColor" stroke-width="4"/></svg></div><div><p class="section-kicker">Studio module add-on</p><h2 id="console-title">Your studio. Your engine.<br>Your console build.</h2><p>Studio customers can purchase the engine module with source, priced per conversation. Build the sandbox directly into your own engine, with AOT-compiled scripts and no JIT dependency. The module loads the same artifacts as the BSD extension.</p><p class="fine-print">*Console builds require your own approved platform access, SDKs, and Godot port or export templates. We hold no console SDK and have not tested console builds. Your studio owns platform certification and testing; we fix reported defects from a reproduction.</p></div></section>
+    <section class="pricing-section" id="pricing" aria-labelledby="pricing-title"><div class="wrap pricing-layout">
+      <div class="pricing-copy"><p class="section-kicker">Introductory pricing</p><h2 id="pricing-title">Built for your next release.</h2><p>Compile locally. Ship native code. Keep using every version released during your update term.</p><p class="community-note">Start with the free compatibility scanner, interpreter and desktop JIT.<br><a href="https://github.com/libriscv/godot-sandbox">Explore Godot Sandbox Community <span aria-hidden="true">↗</span></a></p></div>
+      <article class="price-card" aria-label="Indie pricing"><h3>Indie</h3><p>One named project. Unlimited seats.</p><div class="price-line"><strong>$149</strong><span>USD / project</span></div><p class="billing-note">One-time purchase, including 12 months of updates. Optional updates: $49 / year after that. Taxes calculated at checkout.</p><ul class="included"><li>Export pipeline and AOT native translation</li><li>Verifier reports</li><li>Email support</li><li>Keep using versions received during the term</li></ul><p class="legal-status">Sales opening after terms are finalized.</p><p class="purchase-note">Key delivered by email within one business day.</p></article>
+      <article class="price-card" aria-label="Studio pricing"><h3>Studio</h3><p>One legal entity. Unlimited projects and seats.</p><div class="price-line"><strong>$2,500</strong><span>USD / studio / year</span></div><p class="billing-note">Annual update term. Taxes calculated at checkout.</p><ul class="included"><li>Everything in Indie, across your projects</li><li>Priority compatibility fixes</li><li>Source escrow under the Studio agreement</li><li>Engine module add-on: priced per conversation</li></ul><p class="legal-status">Sales opening after terms are finalized.</p><a class="inline-link" href="mailto:fwsgonzo@hotmail.com?subject=Godot%20Sandbox%20Plus%20inquiry">Contact Studio sales <span aria-hidden="true">↗</span></a><p class="purchase-note">Key delivered by email the same business day.</p></article>
+      <p class="pricing-terms">Introductory prices will be reviewed after ten sales or three months. Read the <a href="/eula/">EULA</a>, <a href="/eula/module/">module addendum</a> and <a href="/threat-model/">threat model</a> before purchasing.</p>
+    </div></section>
+    <section class="faq wrap section-space" aria-labelledby="faq-title"><h2 id="faq-title">A few things worth knowing.</h2><div class="faq-list">
+      <details><summary>Can sandboxed scripts be AOT-compiled?</summary><p>Yes, if you want. Ahead-of-time compilation can be fully native (2-5x performance for regular GDScript), or sandboxed (costlier, but matching GDScript). Keep the restricted configuration for untrusted mods.</p></details>
+      <details><summary>Does it work on every platform?</summary><p>The runtime and AOT approach span desktop, mobile, web, and console targets, including systems without JIT. Your export needs the matching target toolchain and integration. The separately priced Studio module loads the same artifacts as the BSD extension. Console builds are untested by us; SDK access and console ports are separate.</p></details>
+      <details><summary>Why not just embed Lua?</summary><p>A scripting language alone is not a security boundary. A Lua integration needs carefully restricted host bindings, libraries, and resource limits to handle untrusted code. Godot Sandbox provides a dedicated isolated runtime with a zero-outside-access restriction mode and an explicit game API.</p></details>
+      <details><summary>Do I need to upload my game or license my players?</summary><p>No. Compilation runs locally. Commercial tooling is licensed for development and export. The shipped runtime does not ask players for a license key.</p></details>
+      <details><summary>Why obfuscation?</summary><p>I'm seeing more and more threads about people having their games repackaged and resold, presumably via semi-automated processes using LLMs. I want to make it harder for casual attackers to reverse engineer released games.</p></details>
+      <details><summary>What does script obfuscation protect?</summary><p>Supported scripts ship as stripped machine code rather than tokenized source, making casual recovery much harder. Engine-visible names, some strings, scenes, and assets may remain inspectable. Obfuscation does not make code impossible to reverse engineer. Check your export report for scripts that remain as source.</p></details>
+      <details><summary>How does GS+ obfuscation compare with Godot's encryption?</summary><p>Godot's PCK encryption protects files on disk. The game ships with the key and decrypts scripts when loading them, exposing their source text or tokenized representation in memory for an analyst to recover. Encryption does not turn GDScript into machine code.</p><p>Godot Sandbox Plus compiles supported scripts into RISC-V machine code and can execute AOT native machine code. The shipped game never needs to reconstruct those scripts' source or tokens, even at load time. Obfuscation further removes eligible internal names and obscures selected strings, so recovering the implementation requires reverse engineering compiled code. Engine-visible names and some strings can still be inspected.</p></details>
+    </div></section>
+  </main>
+  <footer class="wrap site-footer"><a class="brand" href="#">Godot Sandbox <b>Plus</b></a><p>An independent product for the Godot ecosystem.</p><div><a href="https://github.com/libriscv/godot-sandbox">GitHub</a><a href="https://discord.gg/n4GcXr66X5">Discord</a><a href="https://libriscv.no/docs/host_langs/godot_integration/godot_intro/sandbox">Docs</a><a href="/eula/">EULA</a><a href="/eula/module/">Module addendum</a><a href="/threat-model/">Threat model</a><a href="mailto:fwsgonzo@hotmail.com?subject=Godot%20Sandbox%20Plus%20inquiry">Contact</a></div></footer>
+</body>
+</html>

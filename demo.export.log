@@ -1,0 +1,47 @@
+Godot Engine v4.6.3.stable.custom_build.35e80b3a8 (2026-05-20 13:47:53 UTC) - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://mods_sdk/mod_brain.sgd[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://mods_sdk/mod_brain.sgd.elf[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://mods_sdk/arena_api.sgd[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://mods_sdk/arena_api.sgd.elf[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/DejaVuSansMono.ttf-8e135b2c7e25a27d178cdccaa11decf7.fontdata[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://fonts/DejaVuSansMono.ttf.import[39m[0m
+[  15% ] [90m[1msavepack[22m | Storing File: res://mods_sdk/packed_mod_brain.sgd[39m[0m
+[  20% ] [90m[1msavepack[22m | Storing File: res://samples/optimized/cautious.sgd[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://samples/optimized/greedy.sgd[39m[0m
+[  29% ] [90m[1msavepack[22m | Storing File: res://samples/optimized/keyboard.sgd[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://samples/optimized/patrol.sgd[39m[0m
+[  38% ] [90m[1msavepack[22m | Storing File: res://samples/cautious.sgd[39m[0m
+[  42% ] [90m[1msavepack[22m | Storing File: res://samples/escape.sgd[39m[0m
+[  47% ] [90m[1msavepack[22m | Storing File: res://samples/greedy.sgd[39m[0m
+[  52% ] [90m[1msavepack[22m | Storing File: res://samples/keyboard.sgd[39m[0m
+[  57% ] [90m[1msavepack[22m | Storing File: res://samples/overflow.sgd[39m[0m
+[  61% ] [90m[1msavepack[22m | Storing File: res://samples/patrol.sgd[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://samples/spin_forever.sgd[39m[0m
+[  70% ] [90m[1msavepack[22m | Storing File: res://arena.sgd[39m[0m
+[  75% ] [90m[1msavepack[22m | Storing File: res://arena_api.gdc[39m[0m
+[  79% ] [90m[1msavepack[22m | Storing File: res://arena_api.sgd[39m[0m
+[  84% ] [90m[1msavepack[22m | Storing File: res://main.sgd[39m[0m
+WARNING: res://main.tscn:3 - ext_resource, invalid UID: uid://wdy8tenyp3b2 - using text path instead: res://main.sgd
+     at: load (scene/resources/resource_format_text.cpp:500)
+[  89% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://timing.gdc[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://arena_api.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://main.tscn.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://timing.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+SafeGDScript: Source scripts preserved; this export needs a runtime-compiler template.

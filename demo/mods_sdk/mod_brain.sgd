@@ -1,0 +1,6 @@
+trait_name ModBrain
+
+## Keep the API reference; no scene traversal is granted.
+@abstract func mod_init(api: ArenaAPI) -> void
+## Return the desired steering direction.
+@abstract func think(delta: float, me: Vector2, crystals: Array, hazards: Array) -> Vector2

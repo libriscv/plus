@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- The demo's HTML shell (docs/15 W6). No inline script: the page's CSP is
+     script-src 'self' 'wasm-unsafe-eval', which GitHub Pages cannot set as a
+     header, so it lives here as a meta tag. Godot's exporter fills the $GODOT_*
+     placeholders; boot.js reads the config from the JSON data block below. -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#0f1119">
+	<title>SafeGDScript Arena · Godot Sandbox Plus demo</title>
+	<meta name="description" content="Three execution modes. Compare sandboxed SafeGDScript, native AOT and legacy GDScript in your browser.">
+	<link rel="canonical" href="https://plus.libriscv.no/demo/">
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="demo.css">
+	
+</head>
+<body>
+	<header class="bar">
+		<a class="brand" href="/">Godot Sandbox <b>Plus</b></a>
+		<p class="lede">Three execution modes. Compare sandboxed SafeGDScript, native AOT and legacy GDScript in your browser.</p>
+		<nav><a href="/#modding">Why restrictions</a><a href="/#pricing">Pricing</a><a href="https://github.com/libriscv/godot-sandbox">Community edition ↗</a></nav>
+	</header>
+	<main id="stage">
+		<canvas id="canvas" tabindex="0">Your browser does not support the canvas tag.</canvas>
+		<noscript><p class="notice">This demo needs JavaScript and WebAssembly.</p></noscript>
+		<div id="status">
+			<div id="status-progress-wrap"><progress id="status-progress"></progress><p id="status-text">Loading the engine, about 8 MB compressed</p></div>
+			<div id="status-notice" role="alert" hidden></div>
+		</div>
+	</main>
+	<script type="application/json" id="godot-config">{"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":331736,"index.wasm":31965303},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4}</script>
+	<script type="application/json" id="godot-threads">false</script>
+	<script src="index.js"></script>
+	<script src="boot.js"></script>
+</body>
+</html>
+
