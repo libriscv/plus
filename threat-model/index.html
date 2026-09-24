@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self'; base-uri 'none'; form-action https://*.lemonsqueezy.com">
+<title>Threat model — Godot Sandbox Plus</title><link rel="canonical" href="https://plus.libriscv.no/threat-model/">
+<link rel="stylesheet" href="/styles.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"></head>
+<body><header class="site-header wrap"><a class="brand" href="/">Godot Sandbox <b>Plus</b></a></header>
+<main class="wrap legal-page" id="main"><h1>Threat model</h1><p>What an attacker with the shipped build gets:</p>
+<ul><li>RV64 machine code per script, loadable in Ghidra. No tokens, no comments, no local names, no type hints, control flow after optimisation.</li>
+<li>Exported function, property and signal names. Godot calls by name and the Sandbox reads the public API from <code>.symtab</code>. <code>--strip-all</code> is not an option. Hashing is possible/realistic only for strings not used by the engine.</li>
+<li>String literals, unless pooled.</li><li>Scene and resource files, unchanged. This product protects code only.</li></ul>
+<p>What it does not do:</p>
+<ul><li>Stop a determined reverse engineer. It raises cost from minutes with a GUI tool to days with a disassembler.</li>
+<li>Protect against cheating in a client-authoritative game. Use authoritative server logic.</li>
+<li>Replace PCK encryption. The two compose.</li></ul>
+<p><em>Compiled, not tokenized. Your source is not in the build.</em></p>
+<p>This applies to converted scripts. Unsupported scripts remain source or tokens as listed in the export report. No recovery-time guarantee is made. String pooling and optional name hashing are not shipped protection features.</p></main>
+<footer class="wrap site-footer"><a href="/">Home</a><div><a href="/eula/">EULA</a><a href="/eula/module/">Module addendum</a><a href="/threat-model/">Threat model</a><a href="mailto:fwsgonzo@hotmail.com?subject=Godot%20Sandbox%20Plus%20inquiry">Contact</a></div></footer></body></html>

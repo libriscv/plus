@@ -1,0 +1,8 @@
+trait_name ArenaAPI
+
+@abstract func input_axis() -> Vector2
+@abstract func time() -> float
+@abstract func size() -> Vector2
+@abstract func draw_line(from: Vector2, to: Vector2, color: Color) -> void
+@abstract func draw_circle(center: Vector2, radius: float, color: Color) -> void
+@abstract func log(text: String) -> void
